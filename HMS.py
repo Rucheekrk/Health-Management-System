@@ -1,6 +1,7 @@
-#Health Management
+# Health Management
 import os, os.path
 
+# Function to retrieve diet and exercise file from the respective person's folders.
 def retrieve(file):
     print("Enter 1 to select diet file.\nEnter 2 to select exercise file.")
     sel = int(input())
